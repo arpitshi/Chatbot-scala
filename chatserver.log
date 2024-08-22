@@ -1,0 +1,8 @@
+2024-08-22 17:03:06 INFO  ClientHandler - arpit received the active clients list
+2024-08-22 17:03:06 INFO  ClientHandler - Server: arpit has entered the chat room.
+2024-08-22 17:03:11 INFO  ClientHandler - shivam received the active clients list
+2024-08-22 17:03:11 INFO  ClientHandler - Server: shivam has entered the chat room.
+2024-08-22 17:03:15 INFO  ClientHandler - pandey received the active clients list
+2024-08-22 17:03:15 INFO  ClientHandler - Server: pandey has entered the chat room.
+2024-08-22 17:05:44 INFO  ClientHandler - shivam sent a private message to arpit
+2024-08-22 17:06:02 INFO  ClientHandler - arpit sent a private message to shivam
