@@ -1,0 +1,107 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\a.pandey\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\a.pandey\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.1 (Oracle Corporation Java 22.0.1)
+[debug] Load.defaultLoad until apply took 321.4339ms
+[debug]           Load.loadUnit: plugins took 103.5447ms
+[debug]           Load.loadUnit: defsScala took 0.1984ms
+[debug] [Loading] Scanning directory C:\arpit\java\chat-Bot\project
+[debug]             Load.loadUnit: mkEval took 4.9216ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\arpit\java\chat-Bot\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 11.2254 ms
+[info] loading settings for project chat-bot-build from idea.sbt ...
+[debug]               Load.resolveProject(chat-bot-build) took 29.6188ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id chat-bot-build, base: C:\arpit\java\chat-Bot\project, plugins: List(<none>))) took 53.4188ms
+[debug] [Loading] Done in C:\arpit\java\chat-Bot\project, returning: (chat-bot-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 285.5306ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.5026ms
+[debug]         Load.loadUnit(file:/C:/arpit/java/chat-Bot/project/, ...) took 403.6514ms
+[debug]       Load.apply: load took 564.0241ms
+[debug]       Load.apply: resolveProjects took 4.2076ms
+[debug]       Load.apply: finalTransforms took 98.6431ms
+[debug]       Load.apply: config.delegates took 26.9378ms
+[debug]       Load.apply: Def.make(settings)... took 972.9131ms
+[debug]       Load.apply: structureIndex took 214.493ms
+[debug]       Load.apply: mkStreams took 9.0421ms
+[info] loading project definition from C:\arpit\java\chat-Bot\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3976.6982ms
+[debug]     Load.loadUnit: defsScala took 0.0022ms
+[debug] [Loading] Scanning directory C:\arpit\java\chat-Bot
+[debug]       Load.loadUnit: mkEval took 0.2366ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 6.6446 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 214.454ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\arpit\java\chat-Bot, plugins: List(<none>))) took 226.9375ms
+[debug] [Loading] Done in C:\arpit\java\chat-Bot, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4472.0417ms
+[debug]     Load.loadUnit: cleanEvalClasses took 51.5492ms
+[debug]   Load.loadUnit(file:/C:/arpit/java/chat-Bot/, ...) took 8502.51ms
+[debug] Load.apply: load took 8520.545ms
+[debug] Load.apply: resolveProjects took 0.094ms
+[debug] Load.apply: finalTransforms took 160.3164ms
+[debug] Load.apply: config.delegates took 0.7802ms
+[debug] Load.apply: Def.make(settings)... took 113.6712ms
+[debug] Load.apply: structureIndex took 27.671ms
+[debug] Load.apply: mkStreams took 0.0031ms
+[info] set current project to chat-Bot (in build file:/C:/arpit/java/chat-Bot/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 63718 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 63718, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to chat-Bot (in build file:/C:/arpit/java/chat-Bot/)
+[debug] > Exec(idea-shell, None, None)
