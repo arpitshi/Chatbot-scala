@@ -1,3 +1,5 @@
+name := "ServerSideApplication"
+name := "ClientSideApplication"
 ThisBuild / version := "0.1.0-SNAPSHOT"
 
 ThisBuild / scalaVersion := "2.13.13"
@@ -7,4 +9,8 @@ libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.4.11"
 lazy val root = (project in file("."))
   .settings(
     name := "chat-Bot"
+
   )
+
+mainClass := Some("ServerSideApplication.scala")
+mainClass := Some("ClientSideApplication")

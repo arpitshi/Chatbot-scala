@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\arpit\java\chatbot-2\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\arpit\java\chatbot-2\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientSideApplication$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Client.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServerSideApplication.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServerSideApplication$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientSideApplication$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServerSideApplication$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientSideApplication.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\arpit\java\chatbot-2\target\scala-2.13\classes.bak[0m

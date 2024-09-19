@@ -1,8 +1,138 @@
-2024-08-22 17:03:06 INFO  ClientHandler - arpit received the active clients list
-2024-08-22 17:03:06 INFO  ClientHandler - Server: arpit has entered the chat room.
-2024-08-22 17:03:11 INFO  ClientHandler - shivam received the active clients list
-2024-08-22 17:03:11 INFO  ClientHandler - Server: shivam has entered the chat room.
-2024-08-22 17:03:15 INFO  ClientHandler - pandey received the active clients list
-2024-08-22 17:03:15 INFO  ClientHandler - Server: pandey has entered the chat room.
-2024-08-22 17:05:44 INFO  ClientHandler - shivam sent a private message to arpit
-2024-08-22 17:06:02 INFO  ClientHandler - arpit sent a private message to shivam
+2024-09-19 13:11:53 INFO  Server - Shutting down the server and all client connections...
+2024-09-19 13:11:53 ERROR Server - I/O Exception: Socket closed
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:755)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:694)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:659)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:635)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:581)
+	at java.base/java.net.ServerSocket.accept(ServerSocket.java:540)
+	at Server.startServer(ServerSideApplication.scala:42)
+	at ServerSideApplication$.delayedEndpoint$ServerSideApplication$1(ServerSideApplication.scala:94)
+	at ServerSideApplication$delayedInit$body.apply(ServerSideApplication.scala:87)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:42)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+	at scala.App.$anonfun$main$1(App.scala:98)
+	at scala.App.$anonfun$main$1$adapted(App.scala:98)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.App.main(App.scala:98)
+	at scala.App.main$(App.scala:96)
+	at ServerSideApplication$.main(ServerSideApplication.scala:87)
+	at ServerSideApplication.main(ServerSideApplication.scala)
+2024-09-19 13:11:54 INFO  Server - Shutting down the server and all client connections...
+2024-09-19 13:12:56 INFO  Server - Someone has connected to the server!
+2024-09-19 13:12:57 INFO  ClientHandler - arpit received the active clients list
+2024-09-19 13:12:57 INFO  ClientHandler - Server: arpit has entered the chat room.
+2024-09-19 13:13:03 INFO  Server - Someone has connected to the server!
+2024-09-19 13:13:04 INFO  ClientHandler - shivam received the active clients list
+2024-09-19 13:13:04 INFO  ClientHandler - Server: shivam has entered the chat room.
+2024-09-19 13:13:06 INFO  Server - Someone has connected to the server!
+2024-09-19 13:13:07 INFO  ClientHandler - pandey received the active clients list
+2024-09-19 13:13:07 INFO  ClientHandler - Server: pandey has entered the chat room.
+2024-09-19 13:13:41 INFO  ClientHandler - shivam sent a private message to shivam
+2024-09-19 13:14:04 INFO  ClientHandler - shivam sent a private message to arpit
+2024-09-19 13:14:37 WARN  ClientHandler - IO Exception in ClientHandler for shivam
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:190)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436)
+	at ClientHandler.run(ClientHandler.scala:31)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-09-19 13:14:37 INFO  ClientHandler - Server: shivam has left the chat room.
+2024-09-19 13:14:37 INFO  ClientHandler - Resources closed for shivam
+2024-09-19 13:14:52 WARN  ClientHandler - IO Exception in ClientHandler for pandey
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:190)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436)
+	at ClientHandler.run(ClientHandler.scala:31)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-09-19 13:14:52 INFO  ClientHandler - Server: pandey has left the chat room.
+2024-09-19 13:14:52 INFO  ClientHandler - Resources closed for pandey
+2024-09-19 13:14:58 INFO  Server - Shutting down the server and all client connections...
+2024-09-19 13:14:58 WARN  ClientHandler - IO Exception when sending message to pandey
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedWriter.ensureOpen(BufferedWriter.java:132)
+	at java.base/java.io.BufferedWriter.implWrite(BufferedWriter.java:325)
+	at java.base/java.io.BufferedWriter.write(BufferedWriter.java:313)
+	at java.base/java.io.Writer.write(Writer.java:278)
+	at ClientHandler.sendMessageToClient(ClientHandler.scala:127)
+	at Server.$anonfun$shutdownServer$1(ServerSideApplication.scala:71)
+	at Server.$anonfun$shutdownServer$1$adapted(ServerSideApplication.scala:70)
+	at scala.collection.mutable.HashSet$Node.foreach(HashSet.scala:450)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:376)
+	at Server.shutdownServer(ServerSideApplication.scala:70)
+	at ServerSideApplication$.$anonfun$new$1(ServerSideApplication.scala:92)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-09-19 13:14:58 INFO  ClientHandler - Resources closed for pandey
+2024-09-19 13:14:58 INFO  ClientHandler - Resources closed for pandey
+2024-09-19 13:14:58 INFO  ClientHandler - Server: arpit has left the chat room.
+2024-09-19 13:14:58 INFO  ClientHandler - Resources closed for arpit
+2024-09-19 13:14:58 INFO  ClientHandler - Resources closed for arpit
+2024-09-19 13:14:58 WARN  ClientHandler - IO Exception when sending message to shivam
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedWriter.ensureOpen(BufferedWriter.java:132)
+	at java.base/java.io.BufferedWriter.implWrite(BufferedWriter.java:325)
+	at java.base/java.io.BufferedWriter.write(BufferedWriter.java:313)
+	at java.base/java.io.Writer.write(Writer.java:278)
+	at ClientHandler.sendMessageToClient(ClientHandler.scala:127)
+	at Server.$anonfun$shutdownServer$1(ServerSideApplication.scala:71)
+	at Server.$anonfun$shutdownServer$1$adapted(ServerSideApplication.scala:70)
+	at scala.collection.mutable.HashSet$Node.foreach(HashSet.scala:450)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:376)
+	at Server.shutdownServer(ServerSideApplication.scala:70)
+	at ServerSideApplication$.$anonfun$new$1(ServerSideApplication.scala:92)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-09-19 13:14:58 INFO  ClientHandler - Resources closed for shivam
+2024-09-19 13:14:58 INFO  ClientHandler - Resources closed for shivam
+2024-09-19 13:14:58 ERROR Server - I/O Exception: Socket closed
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endAccept(NioSocketImpl.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:755)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:694)
+	at java.base/java.net.ServerSocket.platformImplAccept(ServerSocket.java:659)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:635)
+	at java.base/java.net.ServerSocket.implAccept(ServerSocket.java:581)
+	at java.base/java.net.ServerSocket.accept(ServerSocket.java:540)
+	at Server.startServer(ServerSideApplication.scala:42)
+	at ServerSideApplication$.delayedEndpoint$ServerSideApplication$1(ServerSideApplication.scala:94)
+	at ServerSideApplication$delayedInit$body.apply(ServerSideApplication.scala:87)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:42)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+	at scala.App.$anonfun$main$1(App.scala:98)
+	at scala.App.$anonfun$main$1$adapted(App.scala:98)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.App.main(App.scala:98)
+	at scala.App.main$(App.scala:96)
+	at ServerSideApplication$.main(ServerSideApplication.scala:87)
+	at ServerSideApplication.main(ServerSideApplication.scala)
+2024-09-19 13:14:58 INFO  Client - Resources closed for arpit

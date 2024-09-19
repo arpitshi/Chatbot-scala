@@ -31,7 +31,12 @@ class ClientHandler(socket: Socket) extends Runnable {
         messageFromClient = bufferedReader.readLine()
         messageFromClient != null
       }) {
-        if (messageFromClient.contains(":")) {
+        // Check if the client wants to disconnect
+        if (messageFromClient.equalsIgnoreCase("bye") || messageFromClient.equalsIgnoreCase("exit")) {
+          removeClientHandler()  // Remove client from the set and notify others
+          closeAll()
+          return// Close all resources
+        } else if (messageFromClient.contains(":")) {
           handleMessage(messageFromClient)
         } else {
           broadcastMessage(messageFromClient)
@@ -117,7 +122,7 @@ class ClientHandler(socket: Socket) extends Runnable {
   }
 
   // Send a message to this client
-  private def sendMessageToClient(message: String): Unit = {
+   def sendMessageToClient(message: String): Unit = {
     try {
       bufferedWriter.write(message)
       bufferedWriter.newLine()
@@ -143,7 +148,7 @@ class ClientHandler(socket: Socket) extends Runnable {
   }
 
   // Close all resources
-  private def closeAll(): Unit = {
+   def closeAll(): Unit = {
     try {
       Option(bufferedReader).foreach(_.close())
       Option(bufferedWriter).foreach(_.close())

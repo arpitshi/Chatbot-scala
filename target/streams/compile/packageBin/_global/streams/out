@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\arpit\java\chatbot-2\target\scala-2.13\clientsideapplication_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Client.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\Client.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\ClientHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\ClientHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientSideApplication$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\ClientSideApplication$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientSideApplication$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\ClientSideApplication$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientSideApplication.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\ClientSideApplication.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServerSideApplication$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\ServerSideApplication$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServerSideApplication$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\ServerSideApplication$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServerSideApplication.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\arpit\java\chatbot-2\target\scala-2.13\classes\ServerSideApplication.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
